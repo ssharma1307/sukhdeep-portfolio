@@ -198,6 +198,8 @@ const EDUCATION = [
 
 const TECH_NODES = [
   { label: 'Java', color: 0x5fa8ff },
+  { label: 'React', color: 0x5fa8ff },
+  { label: 'Javascript', color: 0x5fa8ff },
   { label: 'Spring Boot', color: 0x5fa8ff },
   { label: 'AWS', color: 0xf2a65a },
   { label: 'Docker', color: 0x5fa8ff },
