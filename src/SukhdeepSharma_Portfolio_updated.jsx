@@ -818,7 +818,7 @@ export default function Portfolio() {
       <nav className="sh-nav">
               <span className="mark">
                 <img
-                  src="/about-profile.jpeg"
+                  src={`${import.meta.env.BASE_URL}about-profile.jpeg`}
                   alt="Sukhdeep Sharma"
                   className="nav-profile-image"
                 />
@@ -958,7 +958,7 @@ export default function Portfolio() {
         <div className="sh-personal">
           <Reveal as="div" className="sh-personal-intro">
             <div className="avatar-badge">
-              <img src="./about-profile.jpeg" alt="Portrait of Sukhdeep Sharma" className="about-profile-image" />
+              <img src={`${import.meta.env.BASE_URL}about-profile.jpeg`} alt="Portrait of Sukhdeep Sharma" className="about-profile-image" />
             </div>
             <p className="bio">{BIO}</p>
           </Reveal>
