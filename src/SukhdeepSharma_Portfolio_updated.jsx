@@ -8,7 +8,7 @@ import * as THREE from 'three';
 const PROFILE = {
   name: 'Sukhdeep Sharma',
   title: 'Software Engineer',
-  tagline: 'Java · Spring · AWS · Microservices · SQL/NoSQL',
+  tagline: 'Java · Spring · Microservices · SQL/NoSQL',
   location: 'Ontario, Canada',
   phone: '(705) 305-8630',
   email: 'sharma.sukhdeep30@gmail.com',
@@ -17,7 +17,7 @@ const PROFILE = {
 };
 
 const SUMMARY =
-  "I build backend systems in Java and Spring Boot — REST APIs, microservices, and the AWS infrastructure " +
+  "I build backend systems in Java and Spring Boot — REST APIs, microservices, " +
   "that runs them. I care about clean data models, code that survives a peer review, and shipping features " +
   "that actually hold up in production. Two years in, still sharpening the fundamentals every sprint.";
 
@@ -30,7 +30,6 @@ const EXPERIENCE = [
     points: [
       'Developed backend features and enhancements for web applications using Java and Spring Boot as part of an Agile development team.',
       'Built, tested, and maintained RESTful/JSON APIs and microservices, integrating with third-party APIs.',
-      'Built and deployed scalable backend components on AWS (Lambda, ECS, DynamoDB, API Gateway).',
       'Designed and optimized database schemas, entities, and SQL queries for relational databases.',
       'Debugged production issues and implemented fixes, contributing to application support documentation.',
     ],
@@ -95,8 +94,6 @@ const SKILLS = [
     { label: 'Microservices', icon: 'layers' },
   ] },
   { group: 'Cloud & DevOps', items: [
-    { label: 'AWS Lambda', icon: 'cloud' },
-    { label: 'AWS ECS', icon: 'cloud' },
     { label: 'DynamoDB', icon: 'database' },
     { label: 'API Gateway', icon: 'link' },
     { label: 'Docker', icon: 'box' },
@@ -201,7 +198,6 @@ const TECH_NODES = [
   { label: 'React', color: 0x5fa8ff },
   { label: 'Javascript', color: 0x5fa8ff },
   { label: 'Spring Boot', color: 0x5fa8ff },
-  { label: 'AWS', color: 0xf2a65a },
   { label: 'Docker', color: 0x5fa8ff },
   { label: 'Microservices', color: 0xf2a65a },
   { label: 'MySQL', color: 0x5fa8ff },
